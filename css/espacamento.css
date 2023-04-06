@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.centro{
+    background: gray;
+    width: 70vw;
+    margin: 0 auto;
+}
+/* Deixar um texto dividido em duas colunas lado a lado?*/  
+    /*Pode ser utizado display: inline-block com margin -4 px || ou float ou pode ser
+    o grid*/
+.artigo{
+    margin-bottom: 30px;
+    width: 35vw;
+    margin-right: -4px;
+    vertical-align: top;
+    padding-top: 10px;
+    display: inline-block;
+}
+

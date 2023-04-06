@@ -1,0 +1,22 @@
+/*O float por padrão o elemento pai não se ajusta automaticamente
+de acordo com as mudanças de altura do elemento filho. Para corrigir
+isso pode ser criar um elemento cego (sem uso) o seguinte atributo 
+style="clear:both;"*/
+
+.elemento-pai{
+    background: pink;
+    width: 50vw;
+    margin: 0 auto;
+    padding: 5px 10vw;
+    
+}
+.elemento-filho{
+    background: black;
+    float: right;
+    
+    width: 20vw;
+    border: 2px solid blue;
+    font-size: 10px;
+    color: white;
+   
+}
