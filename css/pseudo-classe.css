@@ -1,0 +1,13 @@
+/*para acessar as pseudoclasses basta adicionar : após o seletor do elemento e escolher a 
+pseudoclasse que desejar. OBS: Não é recomendado utilizar muito as pseudoclasses direto no
+css por questões de compatibilidade com os navegadores. Exemplo disso é a pseudoclasse :link 
+que não funciona no chorme*/
+
+/*(2n + 1) - Signigica que a cada 2 (2n) elemento faça algo comenaçando do primento (+ 1)*/
+.teste:focus{
+    background: rgb(224, 7, 7);
+}
+
+body{
+    background: black;
+}
