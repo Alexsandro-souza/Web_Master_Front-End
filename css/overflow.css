@@ -1,0 +1,17 @@
+/*Para que o overflow funcione da forma que se espera ele deve
+ser aplicado ao elemento pai*/
+.main{
+    width: 50vw;
+    background-color: blue;
+    margin: 0 auto;
+    overflow: auto;
+    
+    
+}
+
+.artigo{
+    width: 90vw;
+    height: 50px;
+     
+}
+
