@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    height: 1400px;
+    background: black;
+}
+
+div > nav > a{                
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+/*Com o poisition fixed você não concegue centralizar o elemento com margin: 0 auto;
+apenas com left ou right e, novas propriedade do css3. No caso do exemplo abaixo só foi
+possível seperar o texto do nav com a propriendade padding. O margin não funcionou como 
+esperado*/
+div > nav{
+    position: fixed;
+    /*position: absolute; diferente do fixed tem como base o documento e não o viewport.
+    logo é posível movelo para onde quiser*/
+    /*position: relative; move o elemento tendo como base onde ele está no documento. Ex: Se 
+    houver uma box A e uma box B se quero mover a box B 50px para baixo ela moverá contando do
+    local onde ela já está, não contará apartir do top do documento*/
+    background-color: blue;
+    width: 95vw;  
+    left: 20px;
+}
+
+div > p{
+    padding-top: 50px;
+    font-size: medium;
+    color: blanchedalmond;
+}
