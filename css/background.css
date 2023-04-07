@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: black;
+}
 
 .imagem{    
      height: 50vh;
@@ -12,7 +15,12 @@
      background: red;
      background-image: url(../img/logo-facape.png);/*Utilizando ../ você volta um pasta em relação ao diretorio
      atual. Usando o background-image a imagem pode ser servida diretor do seu pc*/
-     background-size: contain; /*cover; contain*/
+     background-size: 100px;/*Primeiro valor: Esquerda a Direita | Segundo valor:display: cima a baixo;*//*cover; contain*/
      background-repeat: no-repeat;
-     background-position: 10vw;
+     background-position: center top; /*Primeiro valor: Esquerda a Direita | Segundo valor:display: cima a baixo;*/
+     background-attachment: fixed;/*crie efeuti de paralax. A imagem se move de acordo com o viewport e não com de 
+     acordo com o elemento*/    
+}
+.testea{
+    height: 1900px;
 }
